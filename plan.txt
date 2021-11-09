@@ -7,9 +7,11 @@
 ............._nodemon
 
 # create Express server- Creates a server.js file
+# Git setup and first commit
+Install Laravel Mix
+-setup js and scss
+[.] Install tailwind css
 # create Home Page using Html and css
-_include Tailwind css
-
 # create Cart Page
  ----order summary section 
  ---empty cart section 

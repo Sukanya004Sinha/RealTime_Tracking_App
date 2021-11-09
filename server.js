@@ -8,7 +8,9 @@ const path = require ('path')
 const expressLayout = require('express-ejs-layouts');
 const PORT = process.env.PORT|| 4000;
 // basically it checks inside the env variable if its present then put it otherwise  put 4000
-
+// Assets
+app.use(express.static('public'))
+// here static is a middleware
 // here i basically create a route
 app.get('/',(req,res)=>{
    // res.send('Hello from server')
